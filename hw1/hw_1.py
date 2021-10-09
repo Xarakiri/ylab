@@ -42,7 +42,7 @@ def find_path(start: Point, points: List[Point]) -> List[Tuple]:
     return answer
 
 
-def find_answer(start: Point, points: List[Point]) -> str:
+def find_answer(start: Point, points: List[Point]) -> List[Tuple]:
     min_dist = sys.maxsize * 2 + 1
     min_path = None
 
